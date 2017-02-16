@@ -1,6 +1,7 @@
 $base-font-size: 16px;
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 @import "compass/css3";
+@import "bootstrap";
 
 a{
   &:link,
@@ -30,7 +31,7 @@ main{
   @include padding_main_content;
 }
 footer{
-  font-size: 0.8em;
+
   color: #fff;
   background-color: #666;
   @include padding_main_content;
@@ -71,4 +72,7 @@ footer{
   .active{
     background-color: #A5DD3B;
   }
+}
+#carousel-example-generic{
+  margin-bottom: $base-font-size;
 }
