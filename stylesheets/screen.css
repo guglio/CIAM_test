@@ -1,50 +1,70 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
-/* line 4, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
+a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 14, ../sass/screen.scss */
 body {
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .container-fluid {
   width: 100%;
   max-width: 1024px;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 header {
   background-color: #333;
   padding-top: 14px;
 }
 
-/* line 16, ../sass/screen.scss */
-.menu {
+/* line 27, ../sass/screen.scss */
+footer {
+  font-size: 0.8em;
+  color: #fff;
+  background-color: #666;
+  margin-top: 14px;
   padding-top: 14px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
+.menu {
+  padding: 14px 0 0 0;
+}
+
+/* line 38, ../sass/screen.scss */
 .carousel-inner img {
   width: 100%;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .nav-pills > li > a {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
   padding: 7px 14px;
   color: #fff;
 }
-/* line 29, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .nav-pills > li > a:hover {
+  background-color: #A5DD3B;
+  color: #fff;
+}
+/* line 54, ../sass/screen.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
   background-color: #fff;
   color: #333;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .services li {
   display: block;
 }
-/* line 37, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .services li:before {
   content: "\e013";
   font-family: 'Glyphicons Halflings';
@@ -55,21 +75,27 @@ header {
   color: #333;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .carousel-indicators {
   bottom: 0;
   margin-bottom: 0;
 }
-/* line 51, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .carousel-indicators li {
   margin: 0;
   width: 14px;
   height: 14px;
 }
-/* line 56, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .carousel-indicators .active {
   background-color: #A5DD3B;
   border-color: #A5DD3B;
   width: 14px;
   height: 14px;
+}
+
+/* line 90, ../sass/screen.scss */
+.img-center {
+  display: block;
+  margin: 0 auto;
 }
