@@ -45,3 +45,18 @@ header{
   }
   }
 }
+.carousel-indicators{
+  bottom:0;
+  margin-bottom: 0;
+  li{
+    margin: 0;
+    width: $base-font-size;
+    height: $base-font-size;
+  }
+  .active{
+    background-color: #A5DD3B;
+    border-color: #A5DD3B;
+    width: $base-font-size;
+    height: $base-font-size;
+  }
+}

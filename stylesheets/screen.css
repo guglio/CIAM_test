@@ -54,3 +54,22 @@ header {
   margin-left: -40px;
   color: #333;
 }
+
+/* line 48, ../sass/screen.scss */
+.carousel-indicators {
+  bottom: 0;
+  margin-bottom: 0;
+}
+/* line 51, ../sass/screen.scss */
+.carousel-indicators li {
+  margin: 0;
+  width: 14px;
+  height: 14px;
+}
+/* line 56, ../sass/screen.scss */
+.carousel-indicators .active {
+  background-color: #A5DD3B;
+  border-color: #A5DD3B;
+  width: 14px;
+  height: 14px;
+}
