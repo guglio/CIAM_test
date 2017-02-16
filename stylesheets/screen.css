@@ -7,7 +7,7 @@ a:link, a:visited, a:hover, a:active {
 
 /* line 14, ../sass/screen.scss */
 body {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
 /* line 22, ../sass/screen.scss */
 header {
   background-color: #333;
-  padding-top: 14px;
+  padding-top: 16px;
 }
 
 /* line 27, ../sass/screen.scss */
@@ -28,13 +28,13 @@ footer {
   font-size: 0.8em;
   color: #fff;
   background-color: #666;
-  margin-top: 14px;
-  padding-top: 14px;
+  margin-top: 16px;
+  padding-top: 16px;
 }
 
 /* line 34, ../sass/screen.scss */
 .menu {
-  padding: 14px 0 0 0;
+  padding: 16px 0 0 0;
 }
 
 /* line 38, ../sass/screen.scss */
@@ -42,60 +42,38 @@ footer {
   width: 100%;
 }
 
-/* line 43, ../sass/screen.scss */
-.nav-pills > li > a {
+/* line 42, ../sass/screen.scss */
+.nav-item {
+  color: #fff;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-  padding: 7px 14px;
-  color: #fff;
 }
+
 /* line 48, ../sass/screen.scss */
-.nav-pills > li > a:hover {
-  background-color: #A5DD3B;
-  color: #fff;
+.nav-link {
+  padding: 8px 16px;
+}
+/* line 49, ../sass/screen.scss */
+.nav-pills .nav-link {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 /* line 54, ../sass/screen.scss */
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+.nav-pills .nav-link.active {
   background-color: #fff;
   color: #333;
 }
-
-/* line 62, ../sass/screen.scss */
-.services li {
-  display: block;
-}
-/* line 64, ../sass/screen.scss */
-.services li:before {
-  content: "\e013";
-  font-family: 'Glyphicons Halflings';
-  font-size: 14px;
-  float: left;
-  margin-top: 0px;
-  margin-left: -40px;
-  color: #333;
+/* line 58, ../sass/screen.scss */
+.nav-link:hover {
+  background-color: #A5DD3B;
+  color: #fff;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .carousel-indicators {
   bottom: 0;
-  margin-bottom: 0;
 }
-/* line 78, ../sass/screen.scss */
-.carousel-indicators li {
-  margin: 0;
-  width: 14px;
-  height: 14px;
-}
-/* line 83, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .carousel-indicators .active {
   background-color: #A5DD3B;
-  border-color: #A5DD3B;
-  width: 14px;
-  height: 14px;
-}
-
-/* line 90, ../sass/screen.scss */
-.img-center {
-  display: block;
-  margin: 0 auto;
 }

@@ -1,4 +1,4 @@
-$base-font-size: 14px;
+$base-font-size: 16px;
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 @import "compass/css3";
 
@@ -39,55 +39,32 @@ footer{
     width: 100%;
   }
 }
-.nav-pills>li{
-  &>a{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    padding: $base-font-size / 2 $base-font-size;
-    color: #fff;
-    &:hover{
-      background-color: #A5DD3B;
-      color: #fff;
-    }
-  }
-  &.active>a{
-    &,&:focus,&:hover{
-      background-color: #fff;
-      color: #333;
-    }
-  }
+.nav-item{
+  color: #fff;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
-.services{
-  li {
-      display: block;
-  &:before {
-      content: "\e013";
-      font-family: 'Glyphicons Halflings';
-      font-size: $base-font-size;
-      float: left;
-      margin-top: 0px;
-      margin-left: -40px;
-      color: #333;
+.nav-link{
+  .nav-pills &{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
+  padding: $base-font-size / 2 $base-font-size;
+  .nav-pills &.active{
+    background-color: #fff;
+    color: #333;
   }
+  &:hover{
+    background-color: #A5DD3B;
+    color: #fff;
+  }
+
 }
+
 .carousel-indicators{
   bottom:0;
-  margin-bottom: 0;
-  li{
-    margin: 0;
-    width: $base-font-size;
-    height: $base-font-size;
-  }
   .active{
     background-color: #A5DD3B;
-    border-color: #A5DD3B;
-    width: $base-font-size;
-    height: $base-font-size;
   }
-}
-.img-center{
-  display: block;
-  margin: 0 auto;
 }
